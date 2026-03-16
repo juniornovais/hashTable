@@ -72,7 +72,7 @@ public class TabelaHash {
                 System.out.printf("%s (%s) -> ", atual.getNome(), atual.getProfissao());
                 atual = atual.getProximo();
             }
-            System.out.println("None");
+            System.out.println("None.");
         }
     }
 }
